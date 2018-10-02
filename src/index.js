@@ -11,12 +11,8 @@ function getSimpleMn(x) {
             arr.push(i);
             x = x / i;
         }
-        if (x / i == 1) {
-            arr.push(x);
-        }
-    }
-    g = Math.max.apply(null, arr);
-    return (g);
+      }
+        return (Math.max.apply(null, arr));
 }
 
 let res = 0;
